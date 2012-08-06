@@ -1,6 +1,6 @@
 <?php
 
-class API_model extends CI_Model {
+class api_model extends CI_Model {
 	
 	function getHoods($array){
 		if(!array_key_exists('limit', $array)){

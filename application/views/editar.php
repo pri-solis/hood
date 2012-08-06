@@ -8,7 +8,7 @@
     <div class="row-fluid">
 
       <div class="hood-body-box content_top">
-        <a href="editar.html" class="btn-hood btn-normal btn-small">editar</a>
+        <a href="<?php echo base_url() . 'index.php/perfil/' ?>" class="btn-hood btn-normal btn-small">volver</a>
         <div class="span7">
           <img src="<?php echo base_url() . 'img/userImages/'.$url_img ?>"/>
           <h1><?php echo $name . " " . $last_name; ?></h1>

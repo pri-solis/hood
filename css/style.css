@@ -65,6 +65,10 @@ fieldset.field_Reg{
   position: relative;
 }
 
+.field_Reg .icon-envelope{
+  background: url("../img/glyphicons-halflings-white.png") -72px 2px;
+}
+
 fieldset.field_Reg .btn-small.btn-normal{
   float: right;
 }
